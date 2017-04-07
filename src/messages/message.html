@@ -5,7 +5,7 @@
 </ion-header>
 
 <ion-content padding>
-  <p *ngFor="let paragraph of message.paragraphs">
-    {{paragraph}}
+  <p *ngFor="let paragraph of message.paragraphs" class="{{paragraph.class}}">
+    {{paragraph.text}}
   </p>
 </ion-content>
