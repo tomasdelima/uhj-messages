@@ -18,6 +18,7 @@ export class MessagesService {
           {counter: 4, text: "Inclinamos nossas cabeças no Limiar da Antiga Beleza, e Lhe damos graças por haver permitido a Seus devotos seguidores construir tão notável Templo, forjado em vidro, pedra e luz, nutrindo uma atração pelo sagrado. A gratidão que sentimos aumenta nosso anelo por aquele dia glorioso quando a bênção de um Mashriqu\'l-Adhkár será conferida a todas as cidades e povoados, e nos voltamos esperançosos para aqueles países onde Casas de Adoração nacionais e locais estão começando a surgir. Que a visão resplandecente do que a comunidade do Nome Supremo realizou agora em Santiago, impulsione os fiéis em todas as partes para que intensifiquem seus serviços, não importa quão humildes sejam, prestados para a melhora do mundo, oferecidos à Glória de Deus.",},
           {text: "This is a quote. This is a quote. This is a quote. This is a quote. This is a quote. This is a quote. This is a quote. This is a quote. ", class: "quote"},
           {text: "[assina: A Casa Universal de Justiça]", class: "right"},
+          {counter: 22, text: "Mensagem datada de XX de Janeiro de 2000", class: "footnote"},
         ],
       },
       {
@@ -34,6 +35,7 @@ export class MessagesService {
           {counter: 4, text: "Inclinamos nossas cabeças no Limiar da Antiga Beleza, e Lhe damos graças por haver permitido a Seus devotos seguidores construir tão notável Templo, forjado em vidro, pedra e luz, nutrindo uma atração pelo sagrado. A gratidão que sentimos aumenta nosso anelo por aquele dia glorioso quando a bênção de um Mashriqu\'l-Adhkár será conferida a todas as cidades e povoados, e nos voltamos esperançosos para aqueles países onde Casas de Adoração nacionais e locais estão começando a surgir. Que a visão resplandecente do que a comunidade do Nome Supremo realizou agora em Santiago, impulsione os fiéis em todas as partes para que intensifiquem seus serviços, não importa quão humildes sejam, prestados para a melhora do mundo, oferecidos à Glória de Deus.",},
           {text: "This is a quote. This is a quote. This is a quote. This is a quote. This is a quote. This is a quote. This is a quote. This is a quote. ", class: "quote"},
           {text: "[assina: A Casa Universal de Justiça]", class: "right"},
+          {counter: 22, text: "Mensagem datada de XX de Janeiro de 2000", class: "footnote"},
         ],
       },
       {
@@ -50,6 +52,7 @@ export class MessagesService {
           {counter: 4, text: "Inclinamos nossas cabeças no Limiar da Antiga Beleza, e Lhe damos graças por haver permitido a Seus devotos seguidores construir tão notável Templo, forjado em vidro, pedra e luz, nutrindo uma atração pelo sagrado. A gratidão que sentimos aumenta nosso anelo por aquele dia glorioso quando a bênção de um Mashriqu\'l-Adhkár será conferida a todas as cidades e povoados, e nos voltamos esperançosos para aqueles países onde Casas de Adoração nacionais e locais estão começando a surgir. Que a visão resplandecente do que a comunidade do Nome Supremo realizou agora em Santiago, impulsione os fiéis em todas as partes para que intensifiquem seus serviços, não importa quão humildes sejam, prestados para a melhora do mundo, oferecidos à Glória de Deus.",},
           {text: "This is a quote. This is a quote. This is a quote. This is a quote. This is a quote. This is a quote. This is a quote. This is a quote. ", class: "quote"},
           {text: "[assina: A Casa Universal de Justiça]", class: "right"},
+          {counter: 22, text: "Mensagem datada de XX de Janeiro de 2000", class: "footnote"},
         ],
       },
     ]

@@ -10,6 +10,14 @@ message {
     padding: 0 10px;
   }
 
+  .footnote .counter {
+    color: initial;
+    font-size: 1rem;
+    padding: 0;
+    display: inline-block;
+    vertical-align: super;
+  }
+
   .hidden { display: none; }
   .quote  { padding: 0 20px; }
 
