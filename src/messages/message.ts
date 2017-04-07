@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { MessagesService } from './messages-service';
 
 @Component({
-  selector: 'page-message',
+  selector: 'message',
   templateUrl: 'message.html'
 })
 

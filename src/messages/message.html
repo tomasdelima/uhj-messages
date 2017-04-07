@@ -6,6 +6,7 @@
 
 <ion-content padding>
   <p *ngFor="let paragraph of message.paragraphs" class="{{paragraph.class}}">
+    <span [class]="paragraph.counter ? 'counter' : 'hidden'">{{paragraph.counter}}</span>
     {{paragraph.text}}
   </p>
 </ion-content>
