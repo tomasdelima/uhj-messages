@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { UHJMessages } from './app.component';
 
-import { HomePage } from '../pages/home/home';
+import { Messages } from '../messages/messages';
 import { Message } from '../messages/message';
 
-import { MessagesService } from '../messages/messages.service';
+import { MessagesService } from '../messages/messages-service';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -14,7 +14,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     UHJMessages,
     Message,
-    HomePage,
+    Messages,
   ],
   imports: [
     BrowserModule,
@@ -24,7 +24,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     UHJMessages,
     Message,
-    HomePage,
+    Messages,
   ],
   providers: [
     StatusBar,

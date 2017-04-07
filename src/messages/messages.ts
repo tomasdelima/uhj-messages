@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { Message } from '../../messages/message';
-import { MessagesService } from '../../messages/messages.service';
+import { Message } from './message';
+import { MessagesService } from './messages-service';
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'messages',
+  templateUrl: 'messages.html'
 })
-export class HomePage {
+export class Messages {
   messages: Object[]
 
   constructor(public navController: NavController, messagesService: MessagesService) {

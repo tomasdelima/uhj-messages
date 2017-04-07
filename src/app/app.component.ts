@@ -3,13 +3,13 @@ import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { HomePage } from '../pages/home/home';
+import { Messages } from '../messages/messages';
 
 @Component({
   templateUrl: 'app.html'
 })
 export class UHJMessages {
-  rootPage:any = HomePage;
+  rootPage:any = Messages;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
