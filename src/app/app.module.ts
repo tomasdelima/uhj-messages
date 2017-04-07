@@ -8,6 +8,9 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
+import { Message } from '../messages/message';
+
+import { MessagesService } from '../messages/messages.service';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -16,6 +19,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     AboutPage,
     ContactPage,
+    Message,
     HomePage,
     TabsPage
   ],
@@ -28,11 +32,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     AboutPage,
     ContactPage,
+    Message,
     HomePage,
     TabsPage
   ],
   providers: [
     StatusBar,
+    MessagesService,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]

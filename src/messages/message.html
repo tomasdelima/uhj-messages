@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{message.title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p *ngFor="let paragraph of message.paragraphs">
+    {{paragraph}}
+  </p>
+</ion-content>
